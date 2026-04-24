@@ -10,9 +10,5 @@ test('My Test Case', async ({page}) => {
     await page.getByRole('button', { name: 'Login' }).click();
     await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
 
-
-
- 
-
 } )
 
